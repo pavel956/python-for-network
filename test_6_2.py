@@ -1,7 +1,7 @@
 ip = input()
 numbers = ip.split(".")
 numbers = [int(i) for i in numbers]
-print(numbers)
+
 if 223 >= numbers[0] >= 1:
     print("unicast")
 elif 239 >= numbers[0] >= 224:
